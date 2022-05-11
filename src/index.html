@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Of Culture</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.svg" type="image/x-icon">
+</head>
+<body class="overflow-x-hidden">
+    <header class="w-screen fixed z-50 top-0 left-0 right-0">
+        <nav id="navContainer" class="flex md:flex-row flex-col bg-red-500 text-white justify-around p-5 items-center shadow-xl w-full">
+            <div class="flex md:w-auto w-full justify-between logo sm:text-5xl text-4xl font-bold text-white">
+                <span>HOC</span>
+                <button id="menu" class="md:hidden block w-12 text-white"><i class="fas fa-bars"></i></button>
+            </div>
+            <ul class="nav-list my-5 rounded-2xl md:w-auto w-full md:flex hidden md:flex-row flex-col text-2xl h-[60%] items-center justify-center font-semibold">
+                <li class="hover-underline-animation flex rounded-xl justify-center items-center p-3"><a class="flex justify-center items-center gap-2" href="#home"><i class="text-xl fa-solid fa-house flex items-center justify-center text-center"></i><span>Home</span></a></li>
+                <li class="hover-underline-animation flex rounded-xl justify-center items-center p-3"><a class="flex justify-center items-center gap-2" href="#staff"><i class="text-xl fa-solid fa-shield-halved flex items-center justify-center text-center"></i><span>Staff</span></a></li>
+                <li class="hover-underline-animation flex rounded-xl justify-center items-center p-3"><a class="flex justify-center items-center gap-2" href="#about"><i class="text-xl fa-brands fa-discord flex items-center justify-center text-center"></i><span>About</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="flex items-center text-right p-5 m-auto min-h-[80vh] h-full w-screen" id="home">
+        <div class="bg-slate-700 content w-[90%] m-auto p-[3rem] text-white rounded-xl">
+            <span class="md:text-[3rem] text-[2rem] font-semibold">Welcome To House Of Culture</span>
+            <p class="md:text-2xl text-xl">We are community of online friends who just like anime, manga, music, marvel, dc, disney, ..etc. We welcome everyone to join our server. Although we might be racist, homophobic, or just a bit odd at times, we're cool. Don't hesitate to join us.</p>
+            <a href="https://discord.com/invite/wRcEadsFXy" target="_blank">
+                <button class="bg-red-500 hover:bg-red-700 text-white text-3xl font-bold py-2 px-4 rounded-lg mt-5">
+                    Join Us
+                </button>
+            </a>
+        </div>
+    </section>
+    <section class="bg-rose-200 py-5 shadow-inner" id="staff">
+        <div class="text-5xl font-bold text-orange-700 p-5 border-b-2 border-orange-700">Staff</div>
+        <div class="flex flex-wrap gap-5 items-center justify-center m-auto h-full w-screen p-7">
+            <div class="container min-h-[700px] max-w-[500px] bg-white rounded-2xl relative">
+                <div class="banner rounded-2xl">
+                    <img class="h-[200px] rounded-t-2xl object-cover w-full bg-no-repeat" src="https://i.pinimg.com/originals/68/32/03/6832036ac14ae77c18d9a9cd65e80a21.jpg" alt="">
+                    <div class="w-full flex items-center justify-center">
+                        <div class="profile absolute top-24 py-4 w-[90%] m-auto border-b-2 border-b-[rbga(0, 0, 0, 0.5)]">
+                            <div class="round-container">
+                                <img class="w-40 h-40 rounded-full border-[10px] border-white" src="https://images-ext-2.discordapp.net/external/MrhbZMbr4rLUG1FnaYqoXpu5_5MY9xUb1Cwobz89cbo/%3Fsize%3D512/https/cdn.discordapp.com/avatars/715156535940087872/e07d32af66baf21d8543b05e2662add5.webp" alt="">
+                                <span class="py-3 text-2xl font-bold">yokiclearwater#4141</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-36">
+                    <span class="p-5 text-left text-2xl font-semibold">About Me</span>
+                    <p class="p-5 text-xl">pretty dumb when it comes to most things but trying to do better</p>
+                </div>
+                <div class="">
+                    <span class="p-5 text-left text-2xl font-semibold">Roles</span>
+                    <ul class="p-5 text-xl text-orange-500 italic font-bold flex flex-wrap gap-2">
+                        <li>Administrator</li>
+                        <li>Developer</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container min-h-[700px] max-w-[500px] bg-white rounded-2xl relative">
+                <div class="banner rounded-2xl">
+                    <img class="h-[200px] rounded-t-2xl object-cover w-full bg-no-repeat" src="https://images-ext-1.discordapp.net/external/b-L1LJZtQXRtHqdFRsHxn7JYgttiULG_mk2HpjOBfJY/%3Fsize%3D1024/https/cdn.discordapp.com/banners/690916792423678043/a_7db705145f56342c2c7ae03a23b7ee7a.gif" alt="">
+                    <div class="w-full flex items-center justify-center">
+                        <div class="profile absolute top-24 py-4 w-[90%] m-auto border-b-2 border-b-[rbga(0, 0, 0, 0.5)]">
+                            <div class="round-container">
+                                <img class="w-40 h-40 rounded-full border-[10px] border-white" src="https://images-ext-1.discordapp.net/external/MWvX1obvBDz6CD5Lz_V6D6BFwCl-VHTIU83mimn_kuk/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/690916792423678043/a_1ba039fc58f605fe71d8835e7a641c93.gif" alt="">
+                                <span class="py-3 text-2xl font-bold">! Tsuki#9100</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-36">
+                    <span class="p-5 text-left text-2xl font-semibold">About Me</span>
+                    <p class="p-5 text-xl">Tik tok: @za.tsuki</p>
+                </div>
+                <div class="">
+                    <span class="p-5 text-left text-2xl font-semibold">Roles</span>
+                    <ul class="p-5 text-xl text-orange-500 italic font-bold flex flex-wrap gap-2">
+                        <li>Owner</li>
+                        <li>Administrator</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container min-h-[700px] max-w-[500px] bg-white rounded-2xl relative">
+                <div class="banner rounded-2xl">
+                    <img class="h-[200px] rounded-t-2xl object-cover w-full bg-no-repeat" src="https://i.pinimg.com/originals/72/13/bb/7213bbe1732f3616ee3851efb62e2ec4.jpg" alt="">
+                    <div class="w-full flex items-center justify-center">
+                        <div class="profile absolute top-24 py-4 w-[90%] m-auto border-b-2 border-b-[rbga(0, 0, 0, 0.5)]">
+                            <div class="round-container">
+                                <img class="w-40 h-40 rounded-full border-[10px] border-white" src="https://images-ext-2.discordapp.net/external/rSgo0GmfPuu8HwgD-rgG9tMyVsSD8zcDwDSi577MZXA/%3Fsize%3D512/https/cdn.discordapp.com/avatars/576188768793395202/62bb3090b792c3d3954cb19ca99ccc05.webp" alt="">
+                                <span class="py-3 text-2xl font-bold">Mugi#4123</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-36">
+                    <span class="p-5 text-left text-2xl font-semibold">About Me</span>
+                    <p class="p-5 text-xl">“The pain you go through is temporary but the greatness on the other side is forever”- Muhammad Ali</p>
+                </div>
+                <div class="">
+                    <span class="p-5 text-left text-2xl font-semibold">Roles</span>
+                    <ul class="p-5 text-xl text-orange-500 italic font-bold flex flex-wrap gap-2">
+                        <li>Owner</li>
+                        <li>Administrator</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="flex items-center text-right p-5 m-auto min-h-[80vh] h-full w-screen" id="about">
+        <div class="bg-slate-700 content w-[90%] m-auto p-[3rem] text-white rounded-xl flex flex-col leading-loose">
+            <span class="md:text-[3rem] text-[2rem] font-semibold">Shitty Designed By</span>
+            <span class="md:text-3xl text-xl">Yoki Clearwater</span>
+            <span class="md:text-xl text-lg">Made With Tailwind, and jQuery</span>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                <button class="bg-red-500 hover:bg-red-700 text-white text-3xl font-bold py-2 px-4 rounded-lg mt-5">
+                    Stay Cool
+                </button>
+            </a>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

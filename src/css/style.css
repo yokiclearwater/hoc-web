@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#navContainer {
+    max-height: 100px;
+    transition: max-height 0.7s ease;
+}
+
+.active {
+    max-height: 100vh !important;
+}
+
+.parallax-window {
+    min-height: 100vh;
+    background: transparent;
+}
+
+body {
+    /* The image used */
+  /* background-image: url("https://images3.alphacoders.com/118/1187119.jpg") rgba(0, 0, 0, 0.3); */
+  background:conic-gradient(from -90deg at top left, rgb(0, 0, 0, 0.4), rgba(147, 147, 147, 0.4)), url('https://images3.alphacoders.com/118/1187119.jpg');
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-blend-mode: multiply; */
+}
+
+/* @media only screen and (max-device-width: 1366px) {
+    .body {
+      background-attachment: scroll;
+    }
+} */
+
+/* Underline Hover  */
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: white;
+  }
+  
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.container {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
