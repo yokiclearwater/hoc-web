@@ -19,7 +19,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
 
     "start": "npx parcel src/index.html",
+
     "build": "npx parcel build src/index.html"
+
   },
 
   "keywords": [],
@@ -31,6 +33,8 @@
   "description": "",
 
   "dependencies": {
+
+    "bootstrap": "^5.2.0-beta1",
 
     "discord.js": "^13.6.0"
 
